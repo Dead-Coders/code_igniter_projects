@@ -1,0 +1,393 @@
+ERROR - 2022-06-27 09:24:10 --> Error connecting to the database: Unknown database 'payroll_db'
+CRITICAL - 2022-06-27 09:40:00 --> Undefined property: App\Controllers\Main::$desg_model
+in APPPATH\Controllers\Main.php on line 26.
+ 1 APPPATH\Controllers\Main.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$desg_model', 'APPPATH\\Controllers\\Main.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 09:40:23 --> Undefined property: App\Controllers\Main::$desg_model
+in APPPATH\Controllers\Main.php on line 26.
+ 1 APPPATH\Controllers\Main.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$desg_model', 'APPPATH\\Controllers\\Main.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 09:41:25 --> Undefined variable $departments
+in APPPATH\Views\pages\home.php on line 16.
+ 1 APPPATH\Views\pages\home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $departments', 'APPPATH\\Views\\pages\\home.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/home', [], true)
+ 5 APPPATH\Controllers\Main.php(28): view('pages/home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->index()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 09:42:24 --> Undefined array key "code"
+in APPPATH\Views\pages\categories\list.php on line 38.
+ 1 APPPATH\Views\pages\categories\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "code"', 'APPPATH\\Views\\pages\\categories\\list.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\categories\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/categories/list', [], true)
+ 5 APPPATH\Controllers\Main.php(127): view('pages/categories/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->categories()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 09:53:05 --> Undefined array key "code"
+in APPPATH\Views\pages\posts\list.php on line 38.
+ 1 APPPATH\Views\pages\posts\list.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "code"', 'APPPATH\\Views\\pages\\posts\\list.php', 38)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\posts\\list.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/posts/list', [], true)
+ 5 APPPATH\Controllers\Main.php(205): view('pages/posts/list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->posts()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 09:59:10 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\pages\posts\add.php on line 18.
+ 1 APPPATH\Views\pages\posts\add.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\pages\\posts\\add.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\posts\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/posts/add', [], true)
+ 5 APPPATH\Controllers\Main.php(228): view('pages/posts/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->post_add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 09:59:17 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+in APPPATH\Views\pages\posts\add.php on line 18.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/posts/add', [], true)
+ 4 APPPATH\Controllers\Main.php(228): view('pages/posts/add', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->post_add()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 10:21:51 --> Undefined variable $categories
+in APPPATH\Views\pages\posts\add.php on line 33.
+ 1 APPPATH\Views\pages\posts\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\posts\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\posts\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/posts/add', [], true)
+ 5 APPPATH\Controllers\Main.php(228): view('pages/posts/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->post_add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 10:22:50 --> Undefined variable $categories
+in APPPATH\Views\pages\posts\add.php on line 33.
+ 1 APPPATH\Views\pages\posts\add.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\posts\\add.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\posts\\add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/posts/add', [], true)
+ 5 APPPATH\Controllers\Main.php(230): view('pages/posts/add', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->post_add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 10:57:26 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::hasMove()
+in APPPATH\Controllers\Main.php on line 271.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->post_edit('1')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-27 11:11:38 --> Unknown column 'users.email' in 'where clause'
+CRITICAL - 2022-06-27 11:11:38 --> Unknown column 'users.email' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `posts`.`title` LIKE \'%php%\' or `posts`.`short_description` LIKE \'%php%\' or `posts`.`content` LIKE \'%php%\' or `posts`.`tags` LIKE \'%php%\' or `users`.`email` LIKE \'%php%\' or `category_id` in (SELECT id FROM `categories` where name LIKE \'%php%\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `posts`.`title` LIKE \'%php%\' or `posts`.`short_description` LIKE \'%php%\' or `posts`.`content` LIKE \'%php%\' or `posts`.`tags` LIKE \'%php%\' or `users`.`email` LIKE \'%php%\' or `category_id` in (SELECT id FROM `categories` where name LIKE \'%php%\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `posts`.`title` LIKE \'%php%\' or `posts`.`short_description` LIKE \'%php%\' or `posts`.`content` LIKE \'%php%\' or `posts`.`tags` LIKE \'%php%\' or `users`.`email` LIKE \'%php%\' or `category_id` in (SELECT id FROM `categories` where name LIKE \'%php%\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `posts`.`title` LIKE \'%php%\' or `posts`.`short_description` LIKE \'%php%\' or `posts`.`content` LIKE \'%php%\' or `posts`.`tags` LIKE \'%php%\' or `users`.`email` LIKE \'%php%\' or `category_id` in (SELECT id FROM `categories` where name LIKE \'%php%\')', [], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Main.php(202): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->posts()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 11:48:56 --> Call to a member function makeLink() on null
+in APPPATH\Views\pages\public\home.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/home', [], true)
+ 4 APPPATH\Controllers\Blog.php(33): view('pages/public/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 11:49:03 --> Call to a member function makeLinks() on null
+in APPPATH\Views\pages\public\home.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/home', [], true)
+ 4 APPPATH\Controllers\Blog.php(33): view('pages/public/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 11:49:17 --> Call to a member function makeLinks() on null
+in APPPATH\Views\pages\public\home.php on line 45.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/home', [], true)
+ 4 APPPATH\Controllers\Blog.php(33): view('pages/public/home', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-27 11:53:13 --> Unknown column 'created' in 'order clause'
+CRITICAL - 2022-06-27 11:53:13 --> Unknown column 'created' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `posts`
+WHERE `status` = 1
+ORDER BY abs(unix_timestamp(created)) DESC
+ LIMIT 5', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `posts`
+WHERE `status` = 1
+ORDER BY abs(unix_timestamp(created)) DESC
+ LIMIT 5')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `posts`
+WHERE `status` = 1
+ORDER BY abs(unix_timestamp(created)) DESC
+ LIMIT 5')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `posts`
+WHERE `status` = :status.1:
+ORDER BY abs(unix_timestamp(created)) DESC
+ LIMIT 5', [...], false)
+ 5 SYSTEMPATH\Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(584): CodeIgniter\Model->doFindAll(5, 0)
+ 7 SYSTEMPATH\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(5, 0)
+ 8 APPPATH\Controllers\Blog.php(33): CodeIgniter\BaseModel->paginate(5)
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 12:07:20 --> Undefined variable $categories
+in APPPATH\Views\pages\public\categories.php on line 5.
+ 1 APPPATH\Views\pages\public\categories.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $categories', 'APPPATH\\Views\\pages\\public\\categories.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\public\\categories.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/categories', [], true)
+ 5 APPPATH\Controllers\Blog.php(79): view('pages/public/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->category('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 12:07:37 --> Undefined variable $row
+in APPPATH\Views\pages\public\category.php on line 26.
+ 1 APPPATH\Views\pages\public\category.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\pages\\public\\category.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\public\\category.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/category', [], true)
+ 5 APPPATH\Controllers\Blog.php(79): view('pages/public/category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->category('1')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 12:56:43 --> Undefined property: App\Controllers\Blog::$caegory_model
+in APPPATH\Controllers\Blog.php on line 45.
+ 1 APPPATH\Controllers\Blog.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Blog::$caegory_model', 'APPPATH\\Controllers\\Blog.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->categories()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 12:58:40 --> Undefined array key "title"
+in APPPATH\Views\pages\public\categories.php on line 9.
+ 1 APPPATH\Views\pages\public\categories.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "title"', 'APPPATH\\Views\\pages\\public\\categories.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\public\\categories.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/categories', [], true)
+ 5 APPPATH\Controllers\Blog.php(52): view('pages/public/categories', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->categories()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:13:37 --> Undefined array key "email"
+in APPPATH\Views\pages\public\post.php on line 27.
+ 1 APPPATH\Views\pages\public\post.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "email"', 'APPPATH\\Views\\pages\\public\\post.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\public\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/post', [], true)
+ 5 APPPATH\Controllers\Blog.php(94): view('pages/public/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->view('22')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:13:47 --> Undefined array key "description"
+in APPPATH\Views\pages\public\post.php on line 31.
+ 1 APPPATH\Views\pages\public\post.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', 'APPPATH\\Views\\pages\\public\\post.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\public\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/post', [], true)
+ 5 APPPATH\Controllers\Blog.php(94): view('pages/public/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->view('22')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:17:31 --> Object of class CodeIgniter\HTTP\RedirectResponse could not be converted to string
+in APPPATH\Views\pages\public\post.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/post', [], true)
+ 4 APPPATH\Controllers\Blog.php(94): view('pages/public/post', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->view('22')
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:22:42 --> Undefined array key "PHP_SELF"
+in APPPATH\Views\pages\public\post.php on line 9.
+ 1 APPPATH\Views\pages\public\post.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "PHP_SELF"', 'APPPATH\\Views\\pages\\public\\post.php', 9)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\public\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/post', [], true)
+ 5 APPPATH\Controllers\Blog.php(94): view('pages/public/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->view('22')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:22:54 --> Undefined array key "HTTP_REFERER"
+in APPPATH\Views\pages\public\post.php on line 24.
+ 1 APPPATH\Views\pages\public\post.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "HTTP_REFERER"', 'APPPATH\\Views\\pages\\public\\post.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\public\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/post', [], true)
+ 5 APPPATH\Controllers\Blog.php(94): view('pages/public/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->view('22')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:23:07 --> Undefined array key "HTTP_REFERER"
+in APPPATH\Views\pages\public\post.php on line 24.
+ 1 APPPATH\Views\pages\public\post.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "HTTP_REFERER"', 'APPPATH\\Views\\pages\\public\\post.php', 24)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\pages\\public\\post.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/post', [], true)
+ 5 APPPATH\Controllers\Blog.php(94): view('pages/public/post', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->view('22')
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:29:40 --> Undefined variable $menu_cat
+in APPPATH\Views\layouts\blog_base.php on line 68.
+ 1 APPPATH\Views\layouts\blog_base.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_cat', 'APPPATH\\Views\\layouts\\blog_base.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\blog_base.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/blog_base', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/category', [], true)
+ 6 APPPATH\Controllers\Blog.php(80): view('pages/public/category', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->category('4')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:29:57 --> Undefined variable $menu_cat
+in APPPATH\Views\layouts\blog_base.php on line 68.
+ 1 APPPATH\Views\layouts\blog_base.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_cat', 'APPPATH\\Views\\layouts\\blog_base.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\blog_base.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/blog_base', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/category', [], true)
+ 6 APPPATH\Controllers\Blog.php(80): view('pages/public/category', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->category('4')
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:30:12 --> Undefined variable $menu_cat
+in APPPATH\Views\layouts\blog_base.php on line 68.
+ 1 APPPATH\Views\layouts\blog_base.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $menu_cat', 'APPPATH\\Views\\layouts\\blog_base.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\blog_base.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/blog_base', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/home', [], true)
+ 6 APPPATH\Controllers\Blog.php(38): view('pages/public/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:30:24 --> Undefined variable $row
+in APPPATH\Views\layouts\blog_base.php on line 69.
+ 1 APPPATH\Views\layouts\blog_base.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\layouts\\blog_base.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\blog_base.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/blog_base', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/home', [], true)
+ 6 APPPATH\Controllers\Blog.php(39): view('pages/public/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:30:43 --> Undefined variable $row
+in APPPATH\Views\layouts\blog_base.php on line 69.
+ 1 APPPATH\Views\layouts\blog_base.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\layouts\\blog_base.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layouts\\blog_base.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layouts/blog_base', [], true)
+ 5 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('pages/public/home', [], true)
+ 6 APPPATH\Controllers\Blog.php(39): view('pages/public/home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Blog->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-27 13:37:04 --> Unknown column 'type' in 'where clause'
+CRITICAL - 2022-06-27 13:37:04 --> Unknown column 'type' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `type` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `type` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `type` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `type` = :type:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Main.php(27): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-06-27 13:37:10 --> Unknown column 'type' in 'where clause'
+CRITICAL - 2022-06-27 13:37:10 --> Unknown column 'type' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `type` = 2', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `type` = 2')
+ 3 SYSTEMPATH\Database\BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `type` = 2')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `posts`
+WHERE `type` = :`type`:', [...], false)
+ 5 SYSTEMPATH\Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 APPPATH\Controllers\Main.php(27): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->index()
+ 8 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-06-27 13:37:21 --> Undefined property: App\Controllers\Main::$users
+in APPPATH\Controllers\Main.php on line 27.
+ 1 APPPATH\Controllers\Main.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Main::$users', 'APPPATH\\Controllers\\Main.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\Main->index()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()

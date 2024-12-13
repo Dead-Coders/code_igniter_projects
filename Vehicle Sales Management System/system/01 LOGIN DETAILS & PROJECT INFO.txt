@@ -1,0 +1,22 @@
+**Log on to codeastro.com for more projects!**
+
+**Database Name: vsmsatp**
+
+**Developed by Soyket Chowdhury**
+
+**Recommended PHP Version 5.6.3 and 7.4.12**
+
+After Setup, go to URL: "http://localhost/VSMS_CI/"
+
+Remember: Do not change the project's folder name without updating the $config['base_url']
+
+
+**Admin Login Details** 
+
+Email:    admin@gmail.com
+Password: admin
+
+**Employee Login Details**
+
+Email:	  dannyjackson@gmail.com
+Password: password

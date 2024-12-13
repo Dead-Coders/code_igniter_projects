@@ -1,0 +1,13 @@
+**Log on to codeastro.com for more projects!**
+
+**Database Name: newsigniter**
+
+**Developed by Tegar Pratama**
+
+**Recommended PHP Version 5.6.3, 7.4.12**
+
+
+**Admin Login Details** 
+
+Email	: admin@admin.com
+Password: password

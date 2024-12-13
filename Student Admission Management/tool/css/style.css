@@ -1,0 +1,386 @@
+/*=== Custom Fonts ===*/
+@font-face {
+	font-family: myfont;
+	font-weight: 700;
+	src: url(../../tool/fonts/NotoSans-Bold.ttf) format("truetype");
+}
+@font-face {
+	font-family: myfont;
+	font-weight: 700;
+	src: url(../../tool/fonts/NotoSans-BoldItalic.ttf) format("truetype");
+	font-style: italic;
+}
+@font-face {
+	font-family: myfont;
+	font-weight: 400;
+	src: url(../../tool/fonts/NotoSans-Italic.ttf) format("truetype");
+	font-style: italic;
+}
+@font-face {
+	font-family: myfont;
+	font-weight: 400;
+	src: url(../../tool/fonts/NotoSans-Regular.ttf) format("truetype");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-family: myfont;
+	font-size: 14px;
+	color: #333;
+	font-weight: 400;
+}
+
+p,
+a,
+b,
+span {
+	word-break: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #333;
+	word-break: break-word;
+}
+
+section.section-padding {
+	padding: 80px 0;
+}
+.section-title {
+	color: #555;
+	padding: 8px 0;
+	font-size: 30px;
+	text-transform: capitalize;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.header-area {
+	background-color: #343a40;
+	padding: 10px 0px;
+}
+
+.header-absoulate {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	background: none;
+	color: #343a40;
+	margin-bottom: 30px;
+}
+
+.logo span {
+	display: inline-block;
+	color: #dddd;
+	margin-left: 10px;
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.main-menu ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.main-menu ul li {
+	display: inline-block;
+}
+
+.main-menu ul li a {
+	display: block;
+	padding: 5px 14px;
+	color: #dddd;
+	text-transform: capitalize;
+	text-align: center;
+	font-weight: 700;
+	transition: 0.4s;
+}
+.main-menu ul li a:hover {
+	color: #fff;
+}
+
+a.login-menu,
+.reg-btn {
+	background: #343a40;
+	color: #fff !important;
+}
+span.social-icon a {
+	color: #dddd;
+	font-size: 20px;
+	margin: 0 5px;
+	display: inline-block;
+}
+
+.slider-bg-1 {
+	background-image: url(../../tool/img/student-bg-1.jpg);
+}
+
+.slider-bg-2 {
+	background-image: url(../../tool/img/student-bg-2.jpg);
+}
+
+.single-slider-item {
+	background-position: center;
+	background-size: cover;
+	min-height: 400px;
+	width: 100%;
+	display: table;
+	background-color: #333;
+}
+
+.slider-inner {
+	display: table-cell;
+	width: 100%;
+	vertical-align: middle;
+}
+
+.slide-text h2 {
+	font-size: 25px;
+	color: #fff;
+	background: #343a40;
+	display: inline-block;
+	padding: 10px;
+	font-weight: 300;
+}
+
+.slide-text p {
+	color: #333;
+	font-size: 18px;
+}
+
+a.boxed-btn {
+	display: inline-block;
+	background: #343a40;
+	color: #fff;
+	padding: 10px 12px;
+	font-size: 16px;
+	text-transform: capitalize;
+	border-radius: 10px;
+}
+
+.slider-content .owl-dots div {
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	display: inline-block;
+	margin-right: 5px;
+	border-radius: 50%;
+}
+
+.slider-content .owl-dots {
+	position: relative;
+	left: 0;
+	bottom: 28px;
+	margin: 0 auto;
+	width: 1110px;
+	text-align: center;
+}
+
+.slider-content .owl-dots div.active {
+	background: #343a40;
+}
+/* === Login Form ===*/
+
+.login-form-area,
+.reg-form-area {
+	border: 1px solid #dee2e6;
+	padding: 30px;
+	margin-bottom: 15px;
+	box-shadow: 6px 6px 8px #f2f2f2;
+}
+.login-btn {
+	width: 100%;
+	height: 45px;
+}
+
+/*===============================
+Footer CSS
+=================================*/
+footer {
+	background-color: #cfcbca;
+	padding: 50px 0;
+}
+
+.widget p {
+	color: #333;
+	margin-right: 20px;
+	margin-top: 20px;
+	line-height: 1.8;
+}
+
+footer h3 {
+	color: #343a40;
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.footer-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-menu li {
+	display: block;
+}
+
+.footer-menu ul li a {
+	color: #333;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.copy-right {
+	border-top: 1px solid #2222;
+	width: 100%;
+	text-align: center;
+	padding-top: 6px;
+	margin-top: 15px;
+	color: #555;
+}
+
+.content-area {
+	padding-bottom: 30px;
+}
+
+div#padding {
+	padding: 0 60px;
+}
+.widget .logo span {
+	color: #343a40;
+}
+.widget .social-icon a {
+	color: #343a40;
+}
+
+/*=== Flash message ===*/
+.error-msg {
+	background: #ffd1d1;
+	padding: 8px 15px;
+}
+.success-msg {
+	background: #a9d6bb;
+	padding: 8px 15px;
+}
+
+/*=== Services ===*/
+a.single-services {
+	display: block;
+	padding: 16px;
+	text-align: center;
+	color: #555;
+	transition: 0.3s;
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+a.single-services svg {
+	font-size: 25px;
+	color: #343a40;
+	margin-bottom: 15px;
+}
+
+a.single-services h4 {
+	margin-bottom: 20px;
+}
+
+a.single-services:hover {
+	background-color: #fbfbfb;
+}
+
+/*=== Custom Table CSS ===*/
+.borderless tr,
+.borderless td,
+.borderless th {
+	border: none !important;
+	padding-right: 0;
+}
+td img {
+	border: 1px solid #ddd;
+}
+.action-btn a {
+	width: 70px;
+	margin: 8px 0px;
+	display: inline-block;
+}
+.div-img img {
+	border: 2px solid #ddd;
+}
+.student-details {
+	background: #fafafa;
+	padding: 15px;
+}
+
+/*=== 404 Page CSS ===*/
+.error-type {
+	font-size: 100px;
+	font-weight: 700;
+	color: #343a40;
+	text-align: center;
+}
+
+._404text {
+	text-align: center;
+	font-size: 18px;
+}
+
+/* === Student slider === */
+.single-slider {
+	text-align: center;
+	padding: 10px;
+}
+.single-slider:hover {
+	background: #fbfbfb;
+}
+
+.slide-image img {
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	margin-bottom: 10px;
+}
+.owl-carousel .owl-item img {
+	height: 120px;
+	width: 120px;
+	text-align: center;
+	display: inline-block;
+}
+.owl-nav {
+	position: relative;
+	bottom: 150px;
+}
+
+.owl-nav div {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: 300;
+	color: #3333;
+	padding: 0 5px;
+}
+.owl-nav div:hover {
+	color: #343a40;
+}
+
+.owl-next {
+	position: absolute;
+	right: 0;
+}

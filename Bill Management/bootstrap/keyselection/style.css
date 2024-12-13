@@ -1,0 +1,24 @@
+.selection-container{
+	margin-right:300px;
+	margin-left:4em;
+	margin-top:6em;
+}
+.selection-item{
+	border:2px solid #eee;	
+	padding:1em 0.5em;
+}
+li.selection-item{
+	border-top:none;
+}
+li.selection-item:first-of-type{
+	border-top:2px solid #eee;
+}
+.selection-item:hover{
+	background-color:#ddd;
+}
+.selection-item.key-hover, .selection-item.key-hover:hover{
+	background-color:#ddd;
+}
+.selection-item.selected, .selection-item.selected:hover{
+	background-color:orange;
+}

@@ -1,0 +1,22 @@
+**Log on to codeastro.com for more projects!**
+
+**Database Name: gymci22**
+
+**Developed by Hanzala Afzal**
+
+**Recommended PHP version 5.6**
+
+
+**Admin Login Details** 
+
+Email	: admin@mail.com
+Password: Password@123
+
+
+
+**TCPDF library has been removed from the directory "\application\libraries" due to excessive size**
+
+**Download "tcpdf" and place it under the directory "\application\libraries" with the folder named as "tcpdf"**
+
+
+

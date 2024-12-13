@@ -1,0 +1,22 @@
+**Log on to codeastro.com for more projects!**
+
+**Database Name: onlinexaminationci**
+
+**Developed by Muhammad Ghifari Arfananda**
+
+**Recommended PHP Version 7 or Newer**
+
+
+**Admin Login Details** 
+
+Email	: admin@mail.com
+Password: Password@123
+
+
+
+**TCPDF library has been removed from the directory "\application\libraries" due to excessive size**
+
+**Download "tcpdf" and place it under the directory "\application\libraries" with the same folder name as mentioned**
+
+
+

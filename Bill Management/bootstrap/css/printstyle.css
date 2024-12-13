@@ -1,0 +1,8 @@
+@media print 
+{
+	 body {font: 12pt georgia,serif;} 
+	 /*h1 {font-size: 36pt; display:none;} 
+	 h2 {font-size: 15pt; color: #000;} 
+	 .dataInput {display: none !important;}*/
+}
+

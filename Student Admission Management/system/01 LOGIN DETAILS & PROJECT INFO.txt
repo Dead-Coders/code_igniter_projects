@@ -1,0 +1,17 @@
+**Log on to codeastro.com for more projects!**
+
+**Database Name: admissionst_ci**
+
+**Developed by Tahmid Nishat**
+
+**Recommended PHP Version 5.6.3, 7.4.12**
+
+After Setup, go to URL: "http://localhost/ci-student/"
+
+Remember: Do not change the project's folder name without updating $config['base_url']
+
+
+**Admin Login Details** 
+
+Email	: williams@gmail.com
+Password: 12345

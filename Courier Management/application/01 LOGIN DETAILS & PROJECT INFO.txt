@@ -1,0 +1,15 @@
+**Log on to codeastro.com for more projects!**
+
+**Database Name: courierci**
+
+**Developed by Bryan Itur**
+
+**Recommended PHP Version 5.6**
+Does not work with the latest PHP version
+
+
+**Login Details**
+
+Username: admin
+Password: Password@123
+Office  : New York
